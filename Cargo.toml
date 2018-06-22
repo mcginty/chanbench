@@ -1,0 +1,15 @@
+[package]
+name = "chanbench"
+version = "0.1.0"
+authors = ["Jake McGinty <me@jake.su>"]
+
+[dependencies]
+futures = "^0.1"
+futures-cpupool = "^0.1"
+tokio-threadpool = "^0.1"
+tokio-core = "^0.1"
+crossbeam-channel = "^0.2"
+log = "*"
+num_cpus = "*"
+rayon = "^1.0"
+snow = { git = "https://github.com/mcginty/snow", branch = "wireguard" }
